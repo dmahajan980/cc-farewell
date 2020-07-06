@@ -1,22 +1,30 @@
 {
-    "name": "ABC",
-    "profileimg": "Path To Image For That Senior In A Folder In Assets",
+    "name": "Chirag",
+    "profileimg": "./Seniors/Chirag/img/2.png",
     "h2": "Some ten years ago ... ye wala part",
     "p1-desc": "It was Ravi Shankar ...",
     "p2-desc": "Within a few Short months",
     "imgOnRight": "Path to image",
     "swiperImages": [
-        "1st image path",
-        "2nd image path",
-        "3rd image path",
-        "..."
+        "./Seniors/Chirag/img/1.png",
+        "./Seniors/Chirag/img/3.png",
+        "./Seniors/Chirag/img/4.png",
+        "./Seniors/Chirag/img/5.png",
+        "./Seniors/Chirag/img/6.png",
+        "./Seniors/Chirag/img/7.png",
+        "./Seniors/Chirag/img/8.png",
+        "./Seniors/Chirag/img/9.png"
     ],
     "txt4": "Like most of us ...",
     "recordDivImages": [
-        "img1",
-        "img2",
-        "img3",
-        "img4"
+        "./Seniors/Chirag/img/1.png",
+        "./Seniors/Chirag/img/3.png",
+        "./Seniors/Chirag/img/4.png",
+        "./Seniors/Chirag/img/5.png",
+        "./Seniors/Chirag/img/6.png",
+        "./Seniors/Chirag/img/7.png",
+        "./Seniors/Chirag/img/8.png",
+        "./Seniors/Chirag/img/9.png"
     ],
     "section6bg": "img",
     "shortText": "Ravi's a jolly good fellow",

@@ -1,22 +1,22 @@
 {
-    "name": "ABC",
-    "profileimg": "Path To Image For That Senior In A Folder In Assets",
+    "name": "Arpit",
+    "profileimg": "./Seniors/Arpit/img/2.jpg",
     "h2": "Some ten years ago ... ye wala part",
     "p1-desc": "It was Ravi Shankar ...",
     "p2-desc": "Within a few Short months",
     "imgOnRight": "Path to image",
     "swiperImages": [
-        "1st image path",
-        "2nd image path",
-        "3rd image path",
-        "..."
+        "./Seniors/Arpit/img/1.jpg",
+        "./Seniors/Arpit/img/3.jpg",
+        "./Seniors/Arpit/img/4.jpg",
+        "./Seniors/Arpit/img/5.jpg"
     ],
     "txt4": "Like most of us ...",
     "recordDivImages": [
-        "img1",
-        "img2",
-        "img3",
-        "img4"
+        "./Seniors/Arpit/img/1.jpg",
+        "./Seniors/Arpit/img/3.jpg",
+        "./Seniors/Arpit/img/4.jpg",
+        "./Seniors/Arpit/img/5.jpg"
     ],
     "section6bg": "img",
     "shortText": "Ravi's a jolly good fellow",
