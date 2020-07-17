@@ -1,23 +1,51 @@
-$(document).ready(function() {
-    $.getJSON('senior.json', function(senior) {
-        document.title = 'Farewell ' + senior.name  
-        $('#carlo_txt').html('<h2>'+senior.h2+'</h2>')
-        $('#carlo_txt').append('<p>'+senior.p1-desc+'<br><br>'+senior.p2-desc+'</p>')
-        $('.carlo').attr('src', senior.imageOnRight)
-        $('.txt4').html(senior.txt4)
-        $('.record1').attr('src', senior.recordDivImages[0])
-        $('.record2').attr('src', senior.recordDivImages[1])
-        $('.record3').attr('src', senior.recordDivImages[2])
-        $('.record4').attr('src', senior.recordDivImages[3])
-        $('#section6bg').attr('src', senior.section6bg)
-        $('#div_patch1').html(senior.shortText)
-        $('#div_patch2').html(senior.shortText2)
-        $('.btn-play').attr('href', senior.TvVideoLink)
-        $('.ravi_pic').attr('src', senior.section7bg)
-        $('.p_img1').attr('src', senior.swiperImages[0])
-        $('.p_img2').attr('src', senior.swiperImages[1])
-        $('.p_img3').attr('src', senior.swiperImages[2])
-        $('.p_img4').attr('src', senior.swiperImages[3])
-        $('.p_img5').attr('src', senior.swiperImages[4])
+$(document).ready(function () {
+    $('.senior-link').click(function () {
+        name = $(this).text().toLowerCase()
+        $.getJSON('../img/seniors/' + name + '/senior.json', function (senior) {
+            document.title = 'Farewell ' + senior.name
+            $('.carlo_txt p').text(senior.p1_desc + ' ' + senior.p2_desc)
+            $('.carlo').attr('src', senior.imageOnRight)
+            $('.ravi_img3').attr('src', senior.profileimg)
+            $('#section6bg').attr('src', senior.section6bg)
+            $('.div_patch1').html(senior.shortText)
+            $('.div_patch2').html(senior.shortText2)
+            $('.btn-play').attr('href', senior.TvVideoLink)
+            $('.ravi_pic').attr('src', senior.section7bg)
+
+            /**
+             * Carousel images
+             */
+            const swiperContainer = document.querySelector(".swiper-container");
+            
+            // Clear previous containers and create new ones
+            swiperContainer.innerHTML = "";
+            let swiperImages = senior.swiperImages,
+                swiperWrapper = document.createElement("div");
+            swiperWrapper.classList.add("swiper-wrapper");
+
+            swiperImages.forEach(swiperImage => {
+                const swiperSlide = document.createElement("div"),
+                    imageWrapper = document.createElement("div"),
+                    carouselImage = document.createElement("img");
+            
+                // Add classes and other attributes for image
+                const imageClasses = ["s_story5", "class_disable", "animated", "animate_story_txt"];
+                carouselImage.classList.add(...imageClasses);
+                carouselImage.setAttribute("src", swiperImage);
+                carouselImage.setAttribute("alt", "poster");
+
+                // Add classes and other attributes for other containers
+                imageWrapper.classList.add("image-wrapper");
+                swiperSlide.classList.add("swiper-slide");
+
+                // Inject the elements in the respective order
+                imageWrapper.appendChild(carouselImage);
+                swiperSlide.appendChild(imageWrapper);
+                swiperWrapper.appendChild(swiperSlide);
+            });
+
+            // Inject the swiper wrapper into the container
+            swiperContainer.appendChild(swiperWrapper);
+        })
     })
 })

@@ -1,5 +1,6 @@
 {
     "name": "Chirag",
+<<<<<<< HEAD
     "profileimg": "./Seniors/Chirag/img/2.png",
     "h2": "Some ten years ago ... ye wala part",
     "p1-desc": "It was Ravi Shankar ...",
@@ -25,6 +26,33 @@
         "./Seniors/Chirag/img/7.png",
         "./Seniors/Chirag/img/8.png",
         "./Seniors/Chirag/img/9.png"
+=======
+    "profileimg": "./img/seniors/chirag/img/2.png",
+    "h2": "Some ten years ago ... ye wala part",
+    "p1_desc": "It was Ravi Shankar ...",
+    "p2_desc": "Within a few Short months",
+    "imgOnRight": "Path to image",
+    "swiperImages": [
+        "./img/seniors/chirag/img/1.png",
+        "./img/seniors/chirag/img/3.png",
+        "./img/seniors/chirag/img/4.png",
+        "./img/seniors/chirag/img/5.png",
+        "./img/seniors/chirag/img/6.png",
+        "./img/seniors/chirag/img/7.png",
+        "./img/seniors/chirag/img/8.png",
+        "./img/seniors/chirag/img/9.png"
+    ],
+    "txt4": "Like most of us ...",
+    "recordDivImages": [
+        "./img/seniors/chirag/img/1.png",
+        "./img/seniors/chirag/img/3.png",
+        "./img/seniors/chirag/img/4.png",
+        "./img/seniors/chirag/img/5.png",
+        "./img/seniors/chirag/img/6.png",
+        "./img/seniors/chirag/img/7.png",
+        "./img/seniors/chirag/img/8.png",
+        "./img/seniors/chirag/img/9.png"
+>>>>>>> master
     ],
     "section6bg": "img",
     "shortText": "Ravi's a jolly good fellow",
