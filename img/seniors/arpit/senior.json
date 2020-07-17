@@ -1,46 +1,20 @@
 {
     "name": "Arpit",
-<<<<<<< HEAD
-    "profileimg": "./Seniors/Arpit/img/2.jpg",
-    "h2": "Some ten years ago ... ye wala part",
-    "p1-desc": "It was Ravi Shankar ...",
-    "p2-desc": "Within a few Short months",
+    "profileimg": "./img/seniors/arpit/profile.png",
+    "p1_desc": "Yeh humare group ka item h. Iske bday pehumne sash pe chhamakchhallo likhke isko pure campus m ghumaya tha aur yeh mast show off bhi kar rha tha.",
+    "p2_desc": "Yeh fir anc pe jaake mast pole dance bhi ki kuki treat ke khane ke saath entertainment bhi toh hona chahiye. ",
     "imgOnRight": "Path to image",
     "swiperImages": [
-        "./Seniors/Arpit/img/1.jpg",
-        "./Seniors/Arpit/img/3.jpg",
-        "./Seniors/Arpit/img/4.jpg",
-        "./Seniors/Arpit/img/5.jpg"
+        "./img/seniors/arpit/1.jpg",
+        "./img/seniors/arpit/2.jpg",
+        "./img/seniors/arpit/3.jpg",
+        "./img/seniors/arpit/4.jpg",
+        "./img/seniors/arpit/5.jpg"
     ],
     "txt4": "Like most of us ...",
-    "recordDivImages": [
-        "./Seniors/Arpit/img/1.jpg",
-        "./Seniors/Arpit/img/3.jpg",
-        "./Seniors/Arpit/img/4.jpg",
-        "./Seniors/Arpit/img/5.jpg"
-=======
-    "profileimg": "./img/seniors/arpit/img/2.jpg",
-    "h2": "Some ten years ago ... ye wala part",
-    "p1_desc": "It was Ravi Shankar ...",
-    "p2_desc": "Within a few Short months",
-    "imgOnRight": "Path to image",
-    "swiperImages": [
-        "./img/seniors/arpit/img/1.jpg",
-        "./img/seniors/arpit/img/3.jpg",
-        "./img/seniors/arpit/img/4.jpg",
-        "./img/seniors/arpit/img/5.jpg"
-    ],
-    "txt4": "Like most of us ...",
-    "recordDivImages": [
-        "./img/seniors/arpit/img/1.jpg",
-        "./img/seniors/arpit/img/3.jpg",
-        "./img/seniors/arpit/img/4.jpg",
-        "./img/seniors/arpit/img/5.jpg"
->>>>>>> master
-    ],
     "section6bg": "img",
-    "shortText": "Ravi's a jolly good fellow",
-    "shortText2": "And so to say all of us...",
+    "shortText": "Arpit's a jolly good fellow",
+    "shortText2": "10ml aur dher Saara coke peene ke Baad Yeh bolna ki mein bhand hun. Lol, never change Mansi Mishi 🤗",
     "TvVideoLink": "link to youtube here",
     "section7bg": "img",
     "seniorPic": "ravi_pic_class_disable"

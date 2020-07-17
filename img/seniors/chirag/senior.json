@@ -1,62 +1,24 @@
 {
     "name": "Chirag",
-<<<<<<< HEAD
-    "profileimg": "./Seniors/Chirag/img/2.png",
-    "h2": "Some ten years ago ... ye wala part",
-    "p1-desc": "It was Ravi Shankar ...",
-    "p2-desc": "Within a few Short months",
+    "profileimg": "./img/seniors/chirag/profile.png",
+    "p1_desc": "Elon musk ko follow krte hue har dusre din naya startup karta hai....business krega ye ladka. College mai har cheez mai fasa hai...college k swd dean of chief warden bhi inke karname jante hai",
+    "p2_desc": "Kafi bakchod hai.. pehle apne batch ki bandiyon par line mari or jab unhone bhaav nhi dia toh junior par shuru kr dia",
     "imgOnRight": "Path to image",
     "swiperImages": [
-        "./Seniors/Chirag/img/1.png",
-        "./Seniors/Chirag/img/3.png",
-        "./Seniors/Chirag/img/4.png",
-        "./Seniors/Chirag/img/5.png",
-        "./Seniors/Chirag/img/6.png",
-        "./Seniors/Chirag/img/7.png",
-        "./Seniors/Chirag/img/8.png",
-        "./Seniors/Chirag/img/9.png"
+        "./img/seniors/chirag/1.jpg",
+        "./img/seniors/chirag/2.jpg",
+        "./img/seniors/chirag/3.jpg",
+        "./img/seniors/chirag/4.jpg",
+        "./img/seniors/chirag/5.jpg",
+        "./img/seniors/chirag/6.jpg",
+        "./img/seniors/chirag/7.jpg",
+        "./img/seniors/chirag/8.jpg",
+        "./img/seniors/chirag/9.jpg"
     ],
     "txt4": "Like most of us ...",
-    "recordDivImages": [
-        "./Seniors/Chirag/img/1.png",
-        "./Seniors/Chirag/img/3.png",
-        "./Seniors/Chirag/img/4.png",
-        "./Seniors/Chirag/img/5.png",
-        "./Seniors/Chirag/img/6.png",
-        "./Seniors/Chirag/img/7.png",
-        "./Seniors/Chirag/img/8.png",
-        "./Seniors/Chirag/img/9.png"
-=======
-    "profileimg": "./img/seniors/chirag/img/2.png",
-    "h2": "Some ten years ago ... ye wala part",
-    "p1_desc": "It was Ravi Shankar ...",
-    "p2_desc": "Within a few Short months",
-    "imgOnRight": "Path to image",
-    "swiperImages": [
-        "./img/seniors/chirag/img/1.png",
-        "./img/seniors/chirag/img/3.png",
-        "./img/seniors/chirag/img/4.png",
-        "./img/seniors/chirag/img/5.png",
-        "./img/seniors/chirag/img/6.png",
-        "./img/seniors/chirag/img/7.png",
-        "./img/seniors/chirag/img/8.png",
-        "./img/seniors/chirag/img/9.png"
-    ],
-    "txt4": "Like most of us ...",
-    "recordDivImages": [
-        "./img/seniors/chirag/img/1.png",
-        "./img/seniors/chirag/img/3.png",
-        "./img/seniors/chirag/img/4.png",
-        "./img/seniors/chirag/img/5.png",
-        "./img/seniors/chirag/img/6.png",
-        "./img/seniors/chirag/img/7.png",
-        "./img/seniors/chirag/img/8.png",
-        "./img/seniors/chirag/img/9.png"
->>>>>>> master
-    ],
     "section6bg": "img",
-    "shortText": "Ravi's a jolly good fellow",
-    "shortText2": "And so to say all of us...",
+    "shortText": "Chirag's a jolly good fellow",
+    "shortText2": "Bandi patane k liye CT liya aur phir senior ko patane k liye uske portrait banaye.",
     "TvVideoLink": "link to youtube here",
     "section7bg": "img",
     "seniorPic": "ravi_pic_class_disable"
